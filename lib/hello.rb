@@ -1,9 +1,9 @@
-def hello_t(array)
+def hello_t(names)
   i = 0
   
-  while i < array.length
+  while i < names.length
     i = i + 1
-    yield array[i]
+    yield names[i]
   end
 end
 
